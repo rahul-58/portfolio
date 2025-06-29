@@ -74,9 +74,9 @@ const Footer: React.FC = () => {
           viewport={{ once: true }}
           className="mt-8 pt-8 border-t border-gray-800 dark:border-gray-700 text-center"
         >
-          <p className="text-gray-500 dark:text-gray-600 text-sm">
+          {/* <p className="text-gray-500 dark:text-gray-600 text-sm">
             Built with React, TypeScript, Tailwind CSS, and Framer Motion
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </footer>
