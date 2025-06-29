@@ -68,7 +68,7 @@ const Certifications: React.FC = () => {
           description: "Software"
         }
       ]
-    }
+    },
   ];
 
   return (
