@@ -26,6 +26,21 @@ yarn-error.log*
 EMAILJS_SETUP.md
 QUICK_EMAILJS_SETUP.md
 
+# Personal files - Resume and Images
+*.pdf
+public/*.pdf
+public/*.jpg
+public/*.jpeg
+public/*.png
+public/*.gif
+public/*.svg
+public/*.webp
+public/IMG_*
+public/Rahul_*
+public/logo*.png
+public/favicon.ico
+public/manifest.json
+
 # IDE
 .vscode/
 .idea/

@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
               {/* Profile image */}
               <div className="relative rounded-full overflow-hidden w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 border-4 border-white dark:border-gray-800 shadow-2xl">
                 <img
-                  src="/IMG_7851.jpg"
+                  src="/IMG_20231206_211858_copy"
                   alt="Rahul Reddy Gangapuram"
                   className="w-full h-full object-cover"
                   style={{ 

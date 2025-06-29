@@ -1,0 +1,11 @@
+IMPORTANT: Personal images and files are excluded from this repository for privacy.
+
+To make the website work, you need to add these files to the public folder:
+
+1. IMG_7851.jpg - Your profile photo
+2. Rahul_Reddy_Gangapuram_Resume.pdf - Your resume
+3. favicon.ico - Website favicon
+4. logo192.png, logo512.png - App logos
+5. manifest.json - PWA manifest
+
+These files are in your local public folder but not tracked by git for privacy. 

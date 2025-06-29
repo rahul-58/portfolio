@@ -39,11 +39,16 @@ cd Portfolio
 npm install
 ```
 
-3. Set up EmailJS (optional - for contact form)
+3. Add personal files (not included in repo for privacy)
+   - Add your profile photo as `public/IMG_7851.jpg`
+   - Add your resume as `public/Rahul_Reddy_Gangapuram_Resume.pdf`
+   - Add favicon and logo files to `public/` folder
+
+4. Set up EmailJS (optional - for contact form)
    - Copy `env.example` to `.env.local`
    - Add your EmailJS credentials to `.env.local`
 
-4. Start the development server
+5. Start the development server
 ```bash
 npm start
 ```
