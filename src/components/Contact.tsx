@@ -33,10 +33,10 @@ const Contact: React.FC = () => {
       // You'll need to replace these with your actual EmailJS credentials
       // Sign up at https://www.emailjs.com/ and get your credentials
       const result = await emailjs.sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID || 'service_cbfx8hq',
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'template_lfjsfft',
+        process.env.REACT_APP_EMAILJS_SERVICE_ID!,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID!,
         formRef.current!,
-        process.env.REACT_APP_EMAILJS_PUBLIC_KEY || 'H1gB_3M91VtsDywTr'
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY!
       );
 
       if (result.status === 200) {
