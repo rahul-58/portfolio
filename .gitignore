@@ -35,6 +35,7 @@ public/*.png
 public/*.gif
 public/*.svg
 public/*.webp
+!public/rahul-placeholder.jpg
 public/IMG_*
 public/Rahul_*
 public/logo*.png
