@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Download, Mail, Github, Linkedin } from 'lucide-react';
+import { Download, Mail, Github, Linkedin, Code } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const scrollToContact = () => {
@@ -250,6 +250,16 @@ const Hero: React.FC = () => {
                 className="text-gray-600 hover:text-primary-600 transition-colors duration-200"
               >
                 <Linkedin size={24} className="sm:w-7 sm:h-7" />
+              </motion.a>
+              <motion.a
+                whileHover={{ scale: 1.2, y: -5 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://leetcode.com/u/Rahul_Reddy_58/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-orange-600 transition-colors duration-200"
+              >
+                <Code size={24} className="sm:w-7 sm:h-7" />
               </motion.a>
             </motion.div>
           </motion.div>

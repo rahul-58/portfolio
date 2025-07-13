@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail } from 'lucide-react';
+import { Github, Linkedin, Mail, Code } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -15,6 +15,11 @@ const Footer: React.FC = () => {
       icon: Linkedin,
       href: "https://www.linkedin.com/in/rahul-reddy-gangapuram/",
       label: "LinkedIn"
+    },
+    {
+      icon: Code,
+      href: "https://leetcode.com/u/Rahul_Reddy_58/",
+      label: "LeetCode"
     },
     {
       icon: Mail,

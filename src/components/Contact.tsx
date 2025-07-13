@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Linkedin, Github, Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Github, Code, Send, CheckCircle, AlertCircle } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 const Contact: React.FC = () => {
@@ -95,6 +95,12 @@ const Contact: React.FC = () => {
       label: "GitHub",
       link: "https://github.com/rahul-58",
       color: "hover:text-gray-800"
+    },
+    {
+      icon: Code,
+      label: "LeetCode",
+      link: "https://leetcode.com/u/Rahul_Reddy_58/",
+      color: "hover:text-orange-600"
     }
   ];
 
