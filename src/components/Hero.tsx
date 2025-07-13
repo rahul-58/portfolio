@@ -217,7 +217,9 @@ const Hero: React.FC = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="/Rahul_Reddy_Gangapuram_Resume.pdf"
-                download
+                download="Rahul_Reddy_Gangapuram_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-2 border-2 border-primary-600 text-primary-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-medium hover:bg-primary-600 hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base w-full sm:w-auto justify-center"
               >
                 <Download size={18} className="sm:w-5 sm:h-5" />
