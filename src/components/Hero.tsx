@@ -10,6 +10,15 @@ const Hero: React.FC = () => {
     }
   };
 
+  const handleResumeDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/Rahul_Reddy_Gangapuram_Resume.pdf';
+    link.download = 'Rahul_Reddy_Gangapuram_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Enhanced Background Animation */}
@@ -213,18 +222,15 @@ const Hero: React.FC = () => {
                 Get In Touch
               </motion.button>
               
-              <motion.a
+              <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/Rahul_Reddy_Gangapuram_Resume.pdf"
-                download="Rahul_Reddy_Gangapuram_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={handleResumeDownload}
                 className="flex items-center gap-2 border-2 border-primary-600 text-primary-600 px-6 sm:px-8 py-2.5 sm:py-3 rounded-lg font-medium hover:bg-primary-600 hover:text-white transition-all duration-200 shadow-lg hover:shadow-xl text-sm sm:text-base w-full sm:w-auto justify-center"
               >
                 <Download size={18} className="sm:w-5 sm:h-5" />
                 Download Resume
-              </motion.a>
+              </motion.button>
             </motion.div>
 
             <motion.div
