@@ -11,8 +11,8 @@ const Hero: React.FC = () => {
   };
 
   const handleResumeDownload = () => {
-    // For now, let's use a direct approach
-    window.open('/Rahul_Reddy_Gangapuram_Resume.pdf', '_blank');
+    const resumeLink = 'https://drive.google.com/uc?export=download&id=1eBS2rapdnIq02I7SaJON0OrqN98UuZLr';
+    window.open(resumeLink, '_blank');
   };
 
   return (
