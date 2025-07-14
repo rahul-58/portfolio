@@ -11,7 +11,13 @@ const Hero: React.FC = () => {
   };
 
   const handleResumeDownload = () => {
-    window.open('/resume', '_blank');
+    const link = document.createElement('a');
+    link.href = '/Rahul_Reddy_Gangapuram_Resume.pdf';
+    link.download = 'Rahul_Reddy_Gangapuram_Resume.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   };
 
   return (
