@@ -11,13 +11,8 @@ const Hero: React.FC = () => {
   };
 
   const handleResumeDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/api/download-resume';
-    link.download = 'Rahul_Reddy_Gangapuram_Resume.pdf';
-    link.target = '_blank';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // For now, let's use a direct approach
+    window.open('/Rahul_Reddy_Gangapuram_Resume.pdf', '_blank');
   };
 
   return (

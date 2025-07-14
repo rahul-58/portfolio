@@ -1,8 +1,27 @@
 {
   "rewrites": [
     {
+      "source": "/Rahul_Reddy_Gangapuram_Resume.pdf",
+      "destination": "/Rahul_Reddy_Gangapuram_Resume.pdf"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/Rahul_Reddy_Gangapuram_Resume.pdf",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "attachment; filename=\"Rahul_Reddy_Gangapuram_Resume.pdf\""
+        }
+      ]
     }
   ]
 } 
