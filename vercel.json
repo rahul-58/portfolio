@@ -1,8 +1,13 @@
 {
+  "functions": {
+    "api/download-resume.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
   "rewrites": [
     {
-      "source": "/resume",
-      "destination": "/resume.html"
+      "source": "/api/download-resume",
+      "destination": "/api/download-resume.js"
     },
     {
       "source": "/(.*)",
