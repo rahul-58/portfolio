@@ -5,13 +5,22 @@ import { Github, ExternalLink, Brain, Users, Shield, Gamepad2, MessageSquare, Mu
 const Projects: React.FC = () => {
   const projects = [
     {
+      title: "RAG PDF QA App with Local GGUF Model",
+      description: "Retrieval-Augmented Generation (RAG) app for private, local PDF Q&A. Upload PDFs, ask questions, and get context-aware answers using a local LLM (.gguf via llama.cpp). No external APIs or cloud LLMs—full privacy.",
+      technologies: ["Streamlit", "Sentence-Transformers (MiniLM)", "FAISS", "llama.cpp", "llama-cpp-python", "PyMuPDF"],
+      link: "https://github.com/rahul-58/RAG-App-with-Local-GGUF-Model",
+      icon: Brain,
+      color: "from-orange-500 to-yellow-500",
+      date: "July 2025"
+    },
+    {
       title: "SkillForge - Hackathon Collaboration Platform",
       description: "AI-powered platform that connects individuals based on complementary technical skills for hackathon team formation and project discovery.",
       technologies: ["Firebase", "Google Gemini API", "NLP", "React", "Node.js", "Real-time Messaging"],
       link: "https://github.com/rahul-58/SkillForge",
       icon: Users,
       color: "from-blue-500 to-cyan-500",
-      date: "May 2025"
+      date: "June 2025"
     },
     {
       title: "Intent Classification Chatbot System",
@@ -32,13 +41,22 @@ const Projects: React.FC = () => {
       date: "Apr 2025"
     },
     {
+      title: "Quiz App - Full-Stack Web Application",
+      description: "Complete web application with user authentication, quiz creation, and scoring system deployed on AWS with Docker and CI/CD.",
+      technologies: ["Flask", "Python", "AWS", "Docker", "CircleCI", "SQLAlchemy", "Web Development"],
+      link: "https://github.com/rahul-58/Quiz-App",
+      icon: FileText,
+      color: "from-yellow-500 to-orange-500",
+      date: "Apr 2025"
+    },
+    {
       title: "Sentiment Analysis on Restaurant Reviews",
       description: "Advanced sentiment analysis comparing classical ML algorithms against BERT models, achieving 96.15% accuracy for restaurant review classification.",
       technologies: ["BERT", "Transformers", "NLP", "Machine Learning", "TF-IDF", "Python"],
       link: "https://github.com/rahul-58/Sentiment-Analysis-on-Restaurant-Reviews",
       icon: MessageSquare,
       color: "from-green-500 to-emerald-500",
-      date: "Dec 2024"
+      date: "Mar 2025"
     },
     {
       title: "Fake Review Detection System",
@@ -47,7 +65,7 @@ const Projects: React.FC = () => {
       link: "https://github.com/rahul-58/Fake-Review-Detection",
       icon: Search,
       color: "from-purple-500 to-pink-500",
-      date: "Dec 2024"
+      date: "Mar 2025"
     },
     {
       title: "Emotion Classification from Sound Events",
@@ -56,16 +74,7 @@ const Projects: React.FC = () => {
       link: "https://github.com/rahul-58/Emotion-Classification",
       icon: Music,
       color: "from-indigo-500 to-purple-500",
-      date: "Dec 2024"
-    },
-    {
-      title: "Quiz App - Full-Stack Web Application",
-      description: "Complete web application with user authentication, quiz creation, and scoring system deployed on AWS with Docker and CI/CD.",
-      technologies: ["Flask", "Python", "AWS", "Docker", "CircleCI", "SQLAlchemy", "Web Development"],
-      link: "https://github.com/rahul-58/Quiz-App",
-      icon: FileText,
-      color: "from-yellow-500 to-orange-500",
-      date: "Dec 2024"
+      date: "Feb 2025"
     },
     {
       title: "Robot Navigation to Collect Treasures",

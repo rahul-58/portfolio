@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/Rahul_Reddy_Gangapuram_Resume.pdf",
-      "destination": "/Rahul_Reddy_Gangapuram_Resume.pdf"
+      "destination": "https://drive.google.com/file/d/1eIX--9353PdKj2ZsiN99KTOb61HXkyVe/view?usp=sharing"
     },
     {
       "source": "/(.*)",

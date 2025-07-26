@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   };
 
   const handleResumeDownload = () => {
-    const resumeLink = 'https://drive.google.com/uc?export=download&id=1eBS2rapdnIq02I7SaJON0OrqN98UuZLr';
+    const resumeLink = 'https://drive.google.com/uc?export=download&id=1eIX--9353PdKj2ZsiN99KTOb61HXkyVe';
     window.open(resumeLink, '_blank');
   };
 
