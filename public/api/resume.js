@@ -2,11 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = (req, res) => {
-  const filePath = path.join(process.cwd(), 'public', 'Rahul_Reddy_Gangapuram_Resume.pdf');
-  
-  res.setHeader('Content-Type', 'application/pdf');
-  res.setHeader('Content-Disposition', 'attachment; filename="Rahul_Reddy_Gangapuram_Resume.pdf"');
-  
-  const fileStream = fs.createReadStream(filePath);
-  fileStream.pipe(res);
+  // Replace the filePath and Content-Disposition to redirect to Google Drive
+  res.writeHead(302, { Location: 'https://drive.google.com/file/d/1eIX--9353PdKj2ZsiN99KTOb61HXkyVe/view?usp=sharing' });
+  res.end();
 }; 
