@@ -8,15 +8,8 @@ const About: React.FC = () => {
       degree: "Master of Science in Computer Science",
       school: "San Jose State University",
       location: "San Jose, CA, US",
-      period: "Aug 2024 -- Expected Jun 2026",
+      period: "Aug 2024 -- May 2026",
       link: "https://www.sjsu.edu/",
-      coursework: [
-        "Design and Analysis of Algorithms",
-        "Topics in Artificial Intelligence", 
-        "Topics in Machine Learning",
-        "Natural Language Processing",
-        "Topics in Cloud Computing"
-      ]
     },
     {
       degree: "Bachelor of Technology in Computer Science",
@@ -24,11 +17,6 @@ const About: React.FC = () => {
       location: "Hyderabad, India",
       period: "Jul 2018 -- Jun 2022",
       link: "https://mlrit.ac.in/",
-      coursework: [
-        "Data Structures", "DBMS", "OOP", "Operating Systems",
-        "Computer Networks", "Data Mining", "Cloud Computing",
-        "Big Data Analysis", "Machine Learning"
-      ]
     }
   ];
 
@@ -59,14 +47,10 @@ const About: React.FC = () => {
               Professional Summary
             </h3>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Results-driven software developer with strong expertise in AI/ML, Salesforce platform development, 
-              and DevOps automation. Proven track record of optimizing system performance and delivering scalable 
-              solutions across full-stack and cloud-native environments.
+              Software developer and M.S. Computer Science student at San Jose State University with experience building backend workflows, REST APIs, full-stack applications, and data-driven tools. Skilled in Python, Java, JavaScript, SQL, and modern development practices, with hands-on experience in debugging, testing, documentation, and Agile delivery.
             </p>
             <p className="text-sm sm:text-base lg:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Passionate about solving complex problems through clean code, collaboration, and data-driven innovation. 
-              Currently pursuing my Master's in Computer Science at San Jose State University, focusing on advanced 
-              AI/ML technologies and cloud computing.
+              Interested in building reliable software that solves real business problems, improves workflows, and turns technical requirements into maintainable solutions. Strong foundation in AI/ML projects, database-backed applications, and enterprise software development.
             </p>
             
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-3 sm:pt-4">
@@ -126,19 +110,6 @@ const About: React.FC = () => {
                         <Calendar size={12} className="sm:w-3.5 sm:h-3.5" />
                         {edu.period}
                       </span>
-                    </div>
-                    <div className="text-xs sm:text-sm text-gray-600 dark:text-gray-400">
-                      <span className="font-medium">Relevant Coursework:</span>
-                      <div className="flex flex-wrap gap-1 mt-2">
-                        {edu.coursework.map((course, courseIndex) => (
-                          <span 
-                            key={courseIndex}
-                            className="px-1.5 sm:px-2 py-0.5 sm:py-1 bg-primary-100 dark:bg-primary-900/50 text-primary-700 dark:text-primary-300 rounded text-xs"
-                          >
-                            {course}
-                          </span>
-                        ))}
-                      </div>
                     </div>
                   </div>
                 </motion.div>
