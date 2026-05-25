@@ -15,12 +15,12 @@ const Certifications: React.FC = () => {
         {
           title: "Salesforce Associate",
           link: "https://www.salesforce.com/trailblazer/rahul58",
-          description: "Platform Developer I"
+          description: "Salesforce fundamentals"
         },
         {
           title: "Salesforce AI Associate",
           link: "https://www.salesforce.com/trailblazer/rahul58",
-          description: "AI Fundamentals"
+          description: "Salesforce AI fundamentals"
         },
         {
           title: "Trailhead Double Star Ranger",
